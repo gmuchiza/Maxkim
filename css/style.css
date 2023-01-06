@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 50px;
+  font-family: system-ui;
+
+}
+.hero-banner {
+  background-color: grey;
+  background-image: url("../images/02-portfolio-2.jpg");
+  color: orange;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+  
+  background-size:50% ;
+  background-repeat: no-repeat;
+  }
+
+  .hero-banner:hover { 
+    background-size: 100%; 
+
+  }
+.my-profile {
+  background-color: aquamarine;
+  background-image: url("../images/02-portfolio-4.jpg");
+  color:aquamarine;
+
+  height: 100px;
+  width: 625PX;
+
+  background-size: 50%;
+  background-repeat: no-repeat;
+  float: left;
+
+  padding-top: 200px;
+  padding-bottom: 350px;
+
+}
+
+.my-profile:hover { 
+  background-size: 100%;
+
+}
+
+
+.my-work {
+  background-color: yellow;
+  background-image: url("../images/02-portfolio-1.jpg") ;
+  color: yellow;
+
+  height: 100px;
+  width: 625px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  float: right;
+
+  padding-top: 350px;
+  padding-bottom: 200px;
+
+}
+
+.my-work:hover{
+  background-size:100%;
+
+}
+
+.my-contact{
+  background-color: black;
+  color: aliceblue;
+  background-size: 100%;
+  height: 100px;
+  width: 1250px;
+  background-repeat:no repeat;
+  float: left;
+}
+
+.my-contact:hover { 
+  background-size: 20%;
+}
+
+.my-image {
+  background-color: whitesmoke;
+  background-image: url("../images/mhizha\,jpg");
+  height: 100px;
+  width: 200px;
+  background-repeat: no-repeat;
+  float:left
+}
+/*
+.my-nav { 
+  background-color: aliceblue;
+  color: blue;
+  background-position: right;
+}
+*/
+.container {
+  max-width:  500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:  1rem;
+  padding-right: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 625px;
+  height: 50px;
+  background-color: goldenrod;
+}
+
+
+/* unordered list- for navigation around the whole website*/
+ul {
+
+}
+
+/* unordered list- for moving individual links in the navigation menu */
+ul li {
+  list-style: none;
+  display: inline-block;
+  float:left;
+  line-height:50px;
+
+}
+
+/* unorderd list- anchor-link,for styling text in the menu */
+ul li a {
+text-decoration: none;
+font-size: 16;
+font-family: Tahoma;
+color: grey;
+padding:0 50px;
+}
+
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
