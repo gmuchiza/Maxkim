@@ -30,7 +30,7 @@ body {
   color:aquamarine;
 
   height: 100px;
-  width: 625PX;
+  width: 620PX;
 
   background-size: 50%;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body {
   color: yellow;
 
   height: 100px;
-  width: 625px;
+  width: 620px;
   background-size: 50%;
   background-repeat: no-repeat;
   float: right;
@@ -82,14 +82,11 @@ body {
   background-size: 20%;
 }
 
-.my-image {
-  background-color: whitesmoke;
-  background-image: url("../images/mhizha\,jpg");
-  height: 100px;
-  width: 200px;
-  background-repeat: no-repeat;
-  float:left
+.my-header {
+  text-align: left;
+  color:grey;
 }
+
 /*
 .my-nav { 
   background-color: aliceblue;
@@ -111,9 +108,10 @@ body {
 }
 
 nav {
-  width: 625px;
+  width: 1250px;
   height: 50px;
-  background-color: goldenrod;
+  background-color: goldenrod;#
+  color: white;
 }
 
 
@@ -136,8 +134,8 @@ ul li a {
 text-decoration: none;
 font-size: 16;
 font-family: Tahoma;
-color: grey;
-padding:0 50px;
+color:whitesmoke;
+padding:0 20px;
 }
 
 
